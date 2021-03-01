@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
   margin: 0;
   padding: 0;
@@ -85,4 +89,29 @@ height: 100px;
 
 .ShopCart-text{
 margin-left: 5px;
+}
+
+.banner{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  background-image: url(../img/bannerBg.png);
+  background-size: 1200px;
+}
+
+.banner-Text{
+  width: 500px;
+  margin:50px 0px 0px 75px;
+  line-height: 20px;
+}
+
+.bannerTitle{
+  font-family: 'Roboto', sans-serif;
+  font-size: 39px;
+  line-height: 45px;
+}
+
+.bannerOpisanie{
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
 }
