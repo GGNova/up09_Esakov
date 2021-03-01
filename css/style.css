@@ -97,11 +97,12 @@ margin-left: 5px;
   display: flex;
   background-image: url(../img/bannerBg.png);
   background-size: 1200px;
+  height: 300px;
 }
 
 .banner-Text{
   width: 500px;
-  margin:50px 0px 0px 75px;
+  margin:25px 0px 0px 75px;
   line-height: 20px;
 }
 
@@ -114,4 +115,140 @@ margin-left: 5px;
 .bannerOpisanie{
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
+}
+
+.restaruns{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+.restaruns-TitleBlock{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+}
+
+.restaruns-SearchBlock{
+  border: 1px solid gray;
+  display: flex;
+  width: 300px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-left: 675px;
+}
+
+.restaruns-SearchBlock-text{
+  color:#BFBFBF;
+  margin-left: 5px;
+}
+
+.restaruns-SearchIcon{
+  margin-left: 10px;
+}
+
+.card{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  height: 350px;
+}
+
+.cardsBlock{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  justify-content: center;
+}
+
+.cardBg1{
+  background-image: url(../img/cardBg1.png);
+  width: 340px;
+  height: 250px;
+}
+
+.cardTitle{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cardTimer{
+  background-color: #262626;
+  color: white;
+  margin: 15px 15px 0px 0px ;
+  height: 25px;
+  width: 60px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cardName{
+  margin: 15px 0px 0px 15px;
+}
+
+.descriptionStar{
+  margin: 10px 0px 0px 15px;
+}
+
+.grade{
+  display: flex;
+  align-items: center;
+  margin-top: -15px;
+}
+
+.gradeNum{
+  color: #FFC107;
+  margin-top: 28px;
+  margin-left: 10px;
+}
+
+.cardDescription{
+  display: flex;
+  align-items: center;
+}
+
+.price{
+  color: #8C8C8C;
+  margin: 10px 0px 0px 15px;
+}
+
+.dot{
+  display: block;
+  border-radius:100%;
+  width: 5px;
+  height: 5px;
+  background-color: #8c8c8c;
+  margin: 15px 0px 0px 10px;
+}
+
+.footer{
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer-nav{
+  display: flex;
+  margin-left: -450px;
+}
+
+.footer-nav-text{
+  margin-left: 10px;
+  color: #595959;
+}
+
+.seti-icon{
+  margin-left: 10px;
+}
+
+.footer-seti{
 }
