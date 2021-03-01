@@ -43,6 +43,11 @@ height: 100px;
   display: flex;
   align-items: center;
   height: 40px;
+  background-image: url(../icons/searchHome.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px ;
+  padding-left: 25px ;
 }
 
 .searchIcon{
@@ -141,6 +146,11 @@ margin-left: 5px;
   display: flex;
   align-items: center;
   margin-left: 675px;
+  background-image: url(../icons/loopa.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background: position 5px ;
+  padding-left: 20px;
 }
 
 .restaruns-SearchBlock-text{
